@@ -51,4 +51,31 @@ replace the (filename) with the name of the file, followed by its' extention. Al
 
 ## Step 5: Setting an SSH Key
 
+First, begin by creating an ssh key on your own device. This can be done by first typing the command:
+```
+ssh-keygen
+``` 
+in your terminal. The output should look something like this when you go through the steps.
+
+![ssh keygen example](images/sshkeygen.png)
+
+After this is done, log back into the server. On the server, type in the command:
+```
+mkdir .ssh
+```
+Log out once this is completed. Then, using what we learned from last step, scp the file we just created for the public key to the server. This can be done with the following command:
+```
+scp FileLocation cs15lwi###@ieng6.ucsd.edu:~/.ssh/authorized_keys
+```
+Make sure to replace FileLocation with the location that you saved your public key. Again, also make sure to change the ### with your CSE15L login.
+
 ## Step 6: Optimizing Remote Running
+
+Optimizing remote running can be done by inputting multiple commands into the command line at once. Since we do not need a password to login anymore, we can now run multiple commands without needing to interfere. For example, if I wanted to compile and run the file ExampleUpload that I uploaded in part 4, I can run the following command:
+```
+ssh cs15lwi22###@ieng6.ucsd.edu "javac ExampleUpload.java; java ExampleUpload"
+```
+Here is an image of me running the above command
+
+![Remote running the Example Upload file](images/exampleuploadrun.png)
+
