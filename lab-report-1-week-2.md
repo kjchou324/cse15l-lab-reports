@@ -14,7 +14,7 @@ For this step, you first need to download OpenSSH by going through the tutorial 
 
 Go to the following website to obtain your CSE15L account:
 
-https://sdacs.ucsd.edu/~icc/index.php
+[https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
 
 Then, open the console in VScode and type out the following command:
 
