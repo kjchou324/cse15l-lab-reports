@@ -1,6 +1,6 @@
 # Lab 1 - Remote Access
 
-In 
+In this first lab. we learned about the basics of using console commands and logging in to our CSE15L accounts on the UCSD server.
 
 ## Step 1: Installing VScode
 
