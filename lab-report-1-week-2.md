@@ -6,7 +6,7 @@ In this first lab. we learned about the basics of using console commands and log
 
 First off, you will want to download and install Visual Studio Code, or VScode for short. Head on over to the [Visual Studio Code Website](https://code.visualstudio.com/) and click the download button.
 
-![Visual Studio Code Screenshot](images/vscodedownload.png)
+![Visual Studio Code Screenshot](images/lab-report-1/vscodedownload.png)
 
 ## Step 2: Remotely Connecting
 
@@ -24,7 +24,7 @@ ssh cs15lwi22###@ieng6.ucsd.edu
 
 Replace the ### with whatever your CSE15L account is that you found from the previous website. After this, it will prompt you to enter your password. After this, you should be logged in.
 
-![SSH Login Screenshot](images/sshlogin.png)
+![SSH Login Screenshot](images/lab-report-1/sshlogin.png)
 
 ## Step 3: Trying Some Commands
 
@@ -35,7 +35,7 @@ Here is a list of some of the basic commands and what they do
 - cp - used to copy a file
 - cat - reads out a file
 
-![Trying some commands](images/commandTesting.png)
+![Trying some commands](images/lab-report-1/commandTesting.png)
 
 ## Step 4: Moving Files with scp
 
@@ -47,7 +47,7 @@ scp filename cs15lwi22###@ieng6.ucsd.edu:~/
 
 replace the (filename) with the name of the file, followed by its' extention. Also make sure to replace the ### with your CSE15L account name.
 
-![Using the scp command to transfer files](images/scpCommand.png)
+![Using the scp command to transfer files](images/lab-report-1/scpCommand.png)
 
 ## Step 5: Setting an SSH Key
 
@@ -57,7 +57,7 @@ ssh-keygen
 ``` 
 in your terminal. The output should look something like this when you go through the steps.
 
-![ssh keygen example](images/sshkeygen.png)
+![ssh keygen example](images/lab-report-1/sshkeygen.png)
 
 After this is done, log back into the server. On the server, type in the command:
 ```
@@ -77,5 +77,5 @@ ssh cs15lwi22###@ieng6.ucsd.edu "javac ExampleUpload.java; java ExampleUpload"
 ```
 Here is an image of me running the above command
 
-![Remote running the Example Upload file](images/exampleuploadrun.png)
+![Remote running the Example Upload file](images/lab-report-1/exampleuploadrun.png)
 
