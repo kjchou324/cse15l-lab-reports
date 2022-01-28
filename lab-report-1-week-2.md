@@ -79,3 +79,4 @@ Here is an image of me running the above command
 
 ![Remote running the Example Upload file](images/lab-report-1/exampleuploadrun.png)
 
+An easy way to re-type commands into the console is by using the up arrow. After editing and saving a program, you can use the up arrow in the console to reupload and run that code on the server. Using this method, I was able to do this process in 3 keystrokes, click the console, click the up arrow, and entering the command in.
