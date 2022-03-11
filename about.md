@@ -1,1 +1,3 @@
-Kian Chou is a first year student at UCSD.
+WIP
+
+Kian Chou is currently a first year math-cs major at UCSD.
